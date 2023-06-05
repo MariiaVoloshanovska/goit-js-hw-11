@@ -1,8 +1,8 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { getGallery, totalPages } from './fetchApi';
-import { scroll } from './js/scroll';
-import { createGalleryItem } from './gallery';
+import { getGallery, totalPages } from './api-set';
+// import { scroll } from './js/scroll';
+import { createGalleryItem } from './creeateMurkup';
 import Notiflix from 'notiflix';
 
 const form = document.querySelector('#search-form');
