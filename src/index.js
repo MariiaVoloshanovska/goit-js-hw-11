@@ -1,7 +1,7 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-// import { scroll } from './js/scroll';
+import { scroll } from './ourscroll';
 import { getGallery, totalPages } from './pixabayset';
 import { makeNewGalleries } from './new-cards';
 
